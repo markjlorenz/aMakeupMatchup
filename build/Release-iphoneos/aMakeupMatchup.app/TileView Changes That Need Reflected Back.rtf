@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf460
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red100\green56\blue32;\red170\green13\blue145;
+\red63\green110\blue116;\red46\green13\blue110;\red38\green71\blue75;\red92\green38\blue153;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs20 \cf2 For DBDInteractiveTileView\
+\
+\pard\tx480\pardeftab480\ql\qnatural\pardirnatural
+\cf3 \CocoaLigature0 #pragma mark -- Super Class Methds, Disallowing Object Move--\
+\pard\tx480\pardeftab480\ql\qnatural\pardirnatural
+\cf0 -(\cf4 void\cf0 ) insertTileAtEnd:(\cf5 DBDMovableView\cf0 *)tileView\{\
+	\cf4 if\cf0 ([tileView \cf6 respondsToSelector\cf0 :\cf4 @selector\cf0 (\cf7 setAllowObjectMove\cf0 :)])\
+		tileView.\cf5 allowObjectMove\cf0  = \cf4 NO\cf0 ;\
+	[\cf4 super\cf0  \cf7 insertTileAtEnd\cf0 :tileView];\
+\}\
+-(\cf4 void\cf0 ) insertTile:(\cf5 DBDMovableView\cf0 *)tileView AtIndex:(\cf8 NSUInteger\cf0 )index\{\
+	\cf4 if\cf0 ([tileView \cf6 respondsToSelector\cf0 :\cf4 @selector\cf0 (\cf7 setAllowObjectMove\cf0 :)])\
+		tileView.\cf5 allowObjectMove\cf0  = \cf4 NO\cf0 ;\
+	[\cf4 super\cf0  \cf7 insertTile\cf0 :tileView \cf7 AtIndex\cf0 :index];\
+\}\
+-(\cf4 void\cf0 ) addTilesFromArray:(\cf8 NSArray\cf0 *)array\{\
+	\cf4 for\cf0  (\cf5 DBDMovableView\cf0  *view \cf4 in\cf0  array)\
+		\cf4 if\cf0 ([view \cf6 respondsToSelector\cf0 :\cf4 @selector\cf0 (\cf7 setAllowObjectMove\cf0 :)])\
+		view.\cf5 allowObjectMove\cf0  = \cf4 NO\cf0 ;\
+	[\cf4 super\cf0  \cf7 addTilesFromArray\cf0 :array];\
+\}\
+\
+should be added to the .m  This will end all those annoying object moves the correct way.}

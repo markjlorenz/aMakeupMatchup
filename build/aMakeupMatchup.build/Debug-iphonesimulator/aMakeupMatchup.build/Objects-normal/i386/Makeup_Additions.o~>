@@ -1,0 +1,6 @@
+/Users/mark/Dropbox/src/aMakeupMatchup/Classes/Makeup_Additions.m: In function '-[Makeup(Makeup_Additions) phoneHome]':
+/Users/mark/Dropbox/src/aMakeupMatchup/Classes/Makeup_Additions.m:20: warning: 'Makeup' may not respond to '-digest:'
+/Users/mark/Dropbox/src/aMakeupMatchup/Classes/Makeup_Additions.m:20: warning: (Messages without a matching method signature
+/Users/mark/Dropbox/src/aMakeupMatchup/Classes/Makeup_Additions.m:20: warning: will be assumed to return 'id' and accept
+/Users/mark/Dropbox/src/aMakeupMatchup/Classes/Makeup_Additions.m:20: warning: '...' as arguments.)
+/Users/mark/Dropbox/src/aMakeupMatchup/Classes/Makeup_Additions.m:24: warning: 'Makeup' may not respond to '-postAsynchronousPHPRequest:toPage:delegate:'

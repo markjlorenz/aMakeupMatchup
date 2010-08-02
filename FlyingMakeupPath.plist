@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cp1x</key>
+	<integer>253</integer>
+	<key>cp1y</key>
+	<integer>-89</integer>
+	<key>cp2x</key>
+	<integer>143</integer>
+	<key>cp2y</key>
+	<integer>-2</integer>
+	<key>x</key>
+	<integer>125</integer>
+	<key>y</key>
+	<integer>150</integer>
+	<key>mx</key>
+	<integer>320</integer>
+	<key>my</key>
+	<integer>300</integer>
+</dict>
+</plist>

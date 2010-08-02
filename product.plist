@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Blush</string>
+	<string>Bronzer</string>
+	<string>Concealer</string>
+	<string>Eye Cream</string>
+	<string>Eye Liner</string>
+	<string>Eye Shadow</string>
+	<string>Foundation</string>
+	<string>Lip Gloss</string>
+	<string>Lip Liner</string>
+	<string>Lipstick</string>
+	<string>Mascara</string>
+	<string>Moisturizer</string>
+	<string>Powder</string>
+	<string>Primer</string>
+	<string>Skin Care</string>
+	<string>Other</string>
+</array>
+</plist>
